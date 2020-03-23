@@ -42,8 +42,9 @@ public abstract class Employee {
 
 
     //methods
-    public Double raiseSalary(Double increment){
-        return this.salary + increment;
+    public double raiseSalary(Double increment){
+        Double newSal = this.salary + increment;
+        return newSal;
     }
 
     public double payBonus(){
