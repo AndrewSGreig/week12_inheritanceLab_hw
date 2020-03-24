@@ -37,7 +37,7 @@ public class ManagerTest {
     public void testRaiseSalary(){
         //arrange
         // this is done in @before
-        Double newSal = 0.0;
+        Double newSal;
 
         //act
         newSal = manager.raiseSalary(100.00);
@@ -49,7 +49,7 @@ public class ManagerTest {
     @Test
     public void testPayBonus(){
         //arrange
-        Double bonus = 0.00;
+        Double bonus;
 
         //act
         bonus = manager.payBonus();
